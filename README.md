@@ -57,12 +57,6 @@ Windows:
 .venv\Scripts\activate
 ```
 
-macOS/Linux:
-
-```bash
-source .venv/bin/activate
-```
-
 Установка зависимостей и запуск сервера:
 
 ```bash
@@ -167,15 +161,3 @@ API docs: http://localhost:8000/docs
 - Скриншот приложения находится в папке `docs/imgs`.
 - Добавлен общий запуск через `docker compose up --build`.
 
-## Как загрузить на GitHub
-
-```bash
-git init
-git add .
-git commit -m "Create electronic library prototype"
-git branch -M main
-git remote add origin https://github.com/USERNAME/electronic-library.git
-git push -u origin main
-```
-
-После этого ссылку на репозиторий можно отправить преподавателю.
